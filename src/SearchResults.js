@@ -42,18 +42,10 @@ function SearchResults() {
   <NavDropdown.Item href="#action/3.3">Relaxer</NavDropdown.Item>       
   <NavDropdown.Item href="#action/3.3">Thrill seeker</NavDropdown.Item>       
 </NavDropdown>
-        <FormControl
-          type="text"
-          placeholder="Search"
-          className="mr-sm-2"
-        />
-        <Link to="./results">
-        <Button variant="outline-primary">Submit</Button>
-        </Link>
-      </Form>
-      <Nav.Link><Link to="/Itinerary">Itinerary</Link></Nav.Link>
+        </Form>
       <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
       <Nav.Link><Link to="/becomedocent">Become a Docent</Link></Nav.Link>
+      <Nav.Link><Link to="/Login">Docent Login</Link></Nav.Link>
       <Nav.Link ><Link to="/about">About</Link></Nav.Link>
     </Nav>
   </Navbar>,

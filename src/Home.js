@@ -45,18 +45,10 @@ function Home() {
         <NavDropdown.Item href="#action/3.3">Relaxer</NavDropdown.Item>       
         <NavDropdown.Item href="#action/3.3">Thrill seeker</NavDropdown.Item>       
       </NavDropdown>
-              <FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-              <Link to="./results">
-              <Button variant="outline-primary">Submit</Button>
-              </Link>
-            </Form>
-            <Nav.Link><Link to="/Itinerary">Itinerary</Link></Nav.Link>
+              </Form>
             <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
             <Nav.Link><Link to="/becomedocent">Become a Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/Login">Docent Login</Link></Nav.Link>
             <Nav.Link ><Link to="/about">About</Link></Nav.Link>
           </Nav>
         </Navbar>
@@ -73,11 +65,11 @@ function Home() {
           <h3>
             Do you know your city well? Why not get paid?<b>Become a Docent!</b>
           </h3>
-        </div>
+        <header className="App-header"></header>
         <div>
           <img src={Testi} alt="testi-image" className="testi" />
         </div>
-        <header className="App-header"></header>
+        </div>
       </div>
   );
 }

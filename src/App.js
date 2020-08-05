@@ -8,6 +8,7 @@ import SearchResults from "./SearchResults";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import BecomeDocent from "./BecomeDocent";
 import TalkDocent from "./TalkDocent";
+import LoginDocent from "./LoginDocent";
 
 function App() {
   return (
@@ -16,12 +17,14 @@ function App() {
     <BecomeDocent/>,
     <TalkDocent/>,
     <About/>,
+    <LoginDocent/>,
 
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/results" exact component={SearchResults} />
           <Route path="/about" exact component={About} />
+          <Route path="/login" exact component={LoginDocent} />
           <Route path="/becomedocent" exact component={BecomeDocent} />
           <Route path="/talkdocent" exact component={TalkDocent} />
 
