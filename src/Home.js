@@ -51,11 +51,11 @@ function Home() {
           <h3>
             Do you know your city well? Why not get paid?<b>Become a Docent!</b>
           </h3>
-        </div>
+        <header className="App-header"></header>
         <div>
           <img src={Testi} alt="testi-image" className="testi" />
         </div>
-        <header className="App-header"></header>
+        </div>
       </div>
   );
 }
