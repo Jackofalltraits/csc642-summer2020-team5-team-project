@@ -33,7 +33,7 @@ function Home() {
           <Nav>
             <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
             <Nav.Link><Link to="/becomedocent">Become a Docent</Link></Nav.Link>
-            <Nav.Link><Link to="/Itinerary">Login as Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/login">Login as Docent</Link></Nav.Link>
             <Nav.Link ><Link to="/about">About</Link></Nav.Link>
 
           </Nav>

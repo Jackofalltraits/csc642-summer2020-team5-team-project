@@ -12,16 +12,12 @@ import {
 } from "react-bootstrap";
 // import bootstrap so react-bootstrap can use the css dependency
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
-import Hipster from "./assets/hipster.jpg";
-import Thrill from "./assets/thrill.jpg";
+import {  Link } from "react-router-dom";
 
-function About() {
-  return (
-    <div className="App">
-          <div className="home">
-
-          <Navbar fluid bg="light" variant="light" className="nav">
+function TalkDocent(){
+    return(
+        <div>
+<Navbar fluid bg="light" variant="light" className="nav">
           <Navbar.Brand>
             <Link to="/">
             CityScape
@@ -41,17 +37,9 @@ function About() {
 
           </Nav>
         </Navbar>
-               
-    <h1>About CityScape</h1>
-    <h5>CityScape breaks down all the important data and prepares people to travel. With the help of our most important feature the Docent, users can find locals in their vacation spot to talk to about travel. We break down our Docents into categories such as Food Lover, Hipster, Professional, Relaxer, and Thrill Seeker. If you want to be a docent, please go to "become a docent" to find out more information</h5>
-    <div className="pic">
-    <img src={Hipster} alt="hip" className="hipster" />
-    <img src={Thrill} alt="thril" className="thriller" />
-    </div>
-    <header className="App-header"></header>
+
+        <h1>Login to your Docent Account</h1>
+        </div>
+            )}
     
-    </div>
-    </div>
-  );
-}
-export default About;
+export default TalkDocent;
