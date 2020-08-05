@@ -2,19 +2,14 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import SearchResults from "./SearchResults";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Testi from "./assets/testi.JPG";
 import {
   Button,
-  ButtonGroup,
-  Dropdown,
-  DropdownButton,
   Form,
   FormControl,
   Nav,
   Navbar,
-  SplitButton,
   NavDropdown
 } from "react-bootstrap";
 
@@ -65,7 +60,7 @@ function Home() {
             <Nav.Link ><Link to="/about">About</Link></Nav.Link>
           </Nav>
         </Navbar>
-        <div className="home">
+        
           <h1>CityScape</h1>
           <h2>Escape to The City</h2>
           <h3>
@@ -78,7 +73,6 @@ function Home() {
           <h3>
             Do you know your city well? Why not get paid?<b>Become a Docent!</b>
           </h3>
-          </div>
         </div>
         <div>
           <img src={Testi} alt="testi-image" className="testi" />

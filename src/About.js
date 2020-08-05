@@ -4,23 +4,23 @@ import "./App.css";
 //import react-bootstrap to use in App page
 import {
   Button,
-  ButtonGroup,
-  Dropdown,
-  DropdownButton,
   Form,
   FormControl,
   Nav,
   Navbar,
-  NavDropdown,
-  SplitButton,
+  NavDropdown
 } from "react-bootstrap";
 // import bootstrap so react-bootstrap can use the css dependency
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Hipster from "./assets/hipster.jpg";
+import Thrill from "./assets/thrill.jpg";
 
 function About() {
   return (
-    <div>
+    <div className="App">
+          <div className="home">
+
     <Navbar fluid bg="light" variant="light" className="nav">
     <Navbar.Brand>
       <Link to="/">
@@ -64,6 +64,14 @@ function About() {
     </Nav>
   </Navbar>
     <h1>About CityScape</h1>
+    <h5>CityScape breaks down all the important data and prepares people to travel. With the help of our most important feature the Docent, users can find locals in their vacation spot to talk to about travel. We break down our Docents into categories such as Food Lover, Hipster, Professional, Relaxer, and Thrill Seeker. If you want to be a docent, please go to "become a docent" to find out more information</h5>
+    <div className="pic">
+    <img src={Hipster} alt="hip" className="hipster" />
+    <img src={Thrill} alt="thril" className="thriller" />
+    </div>
+    <header className="App-header"></header>
+    
+    </div>
     </div>
   );
 }
