@@ -29,7 +29,7 @@ function App() {
     <BecomeDocent/>,
     <TalkDocent/>,
     <About/>,
-    <LoginDocent/>,
+    
 
       <BrowserRouter>
         <Switch>
