@@ -13,8 +13,7 @@ import {
 // import bootstrap so react-bootstrap can use the css dependency
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-import Hipster from "./assets/hipster.jpg";
-import Thrill from "./assets/thrill.jpg";
+import Jack from "./assets/jackrec.jpg";
 
 function BecomeDocent() {
   return (
@@ -63,7 +62,7 @@ function BecomeDocent() {
       <Nav.Link ><Link to="/about">About</Link></Nav.Link>
     </Nav>
   </Navbar>
-    <h1>About CityScape</h1>
+    <h1>Become a Docent</h1>
     <h4>Thank you for your interest in becoming a Docent. We are expanding and we may even have a spot for you. Right now, In America, we are only hiring in:</h4>
     
     <li>Atlanta</li>
@@ -76,10 +75,9 @@ function BecomeDocent() {
 <h4>Outside of North America, we are only hiring in: </h4>
     <li>London</li>
     <li>Tokyo</li>
-   
+   <h3>Please Email our recruiting Manager Jack at jackkower@gmail.com with your resume and 3 sentences about why you would be a good docent. We will be in touch.</h3>
     <div className="pic">
-    <img src={Hipster} alt="hip" className="hipster" />
-    <img src={Thrill} alt="thril" className="thriller" />
+    <img src={Jack} alt="jack" className="jack" />
     </div>
     <header className="App-header"></header>
     
