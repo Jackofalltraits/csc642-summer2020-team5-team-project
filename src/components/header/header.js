@@ -9,7 +9,8 @@ export default class Header extends Component {
 				<div className="menu-icon">
 					<span className="fas fa-bars"></span></div>
 				<div className="logo">
-					CityScape</div>
+				<Link to='/'>CityScape</Link>
+					</div>
 				<form action="#">
 					<button style={{ marginLeft: '3px', marginRight: '2px' }}>City</button>
 					<div></div>
