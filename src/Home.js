@@ -31,11 +31,14 @@ function Home() {
             <Nav.Link><Link to="/cityData">Choose a City</Link></Nav.Link>
           </Nav>
           <Nav>
+
+          </Nav>
+          <Nav>
+
             <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
             <Nav.Link><Link to="/becomedocent">Become a Docent</Link></Nav.Link>
             <Nav.Link><Link to="/login">Login as Docent</Link></Nav.Link>
             <Nav.Link ><Link to="/about">About</Link></Nav.Link>
-
           </Nav>
         </Navbar>
         
@@ -49,7 +52,7 @@ function Home() {
             Talk to a personal docent for your next upcoming trip.
           </h3>
           <h3>
-            Do you know your city well? Why not get paid?<b>Become a Docent!</b>
+            Do you know your city well? Why not get paid?<b> Become a Docent!</b>
           </h3>
         <header className="App-header"></header>
         <div>

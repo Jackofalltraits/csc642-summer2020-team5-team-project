@@ -20,7 +20,7 @@ import sd from "./travel/sd";
 import se from "./travel/se";
 import sf from "./travel/sf";
 import to from "./travel/to";
-import Login from "./Login";
+import Login from "./LoginDocent";
 
 function App() {
   return (
