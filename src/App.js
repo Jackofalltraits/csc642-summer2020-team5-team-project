@@ -37,7 +37,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/becomedocent" exact component={BecomeDocent} />
           <Route path="/talkdocent" exact component={TalkDocent} />
-          <Route path="/cities" component={cityD} />
+          <Route path="/cityData" component={cityD} />
           <Route path="/chooseTCity" component={chooseTCity} />
           <Route path="/al" component={al} />
           <Route path="/ch" component={ch} />

@@ -26,7 +26,7 @@ function TalkDocent(){
             <Form inline>
       
             </Form>
-            <Nav.Link><Link to="/cities">Choose a City</Link></Nav.Link>
+            <Nav.Link><Link to="/cityData">Choose a City</Link></Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
