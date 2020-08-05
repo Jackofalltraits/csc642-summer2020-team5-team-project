@@ -27,7 +27,7 @@ function Home() {
           <Nav className="mr-auto">
             <Form inline>
             <NavDropdown title="Cities" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Atlanta</NavDropdown.Item>
+        {/* <NavDropdown.Item href="#action/3.1">Atlanta</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Chicago</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">New York City</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">San Diego</NavDropdown.Item>      
@@ -36,7 +36,9 @@ function Home() {
         <NavDropdown.Item href="#action/3.3">Washiongton D.C.</NavDropdown.Item>    
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">London</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Tokyo</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Tokyo</NavDropdown.Item> */}
+        <NavDropdown.Item href="/cityData">choose city</NavDropdown.Item>
+
       </NavDropdown>
       <NavDropdown title="Docent Type" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.2">Food Lover</NavDropdown.Item>

@@ -38,7 +38,7 @@ const City = () => {
     const classes = useStyles();
 return( 
     <Container margin="auto" component="main" maxWidth="sm">
-      <Helmet bodyAttributes={{ style: "background-color : #69A98D" }} />
+      <Helmet bodyAttributes={{ style: "background-color : #37859E" }} />
       <Typography className={classes.title} textcomponent="h1" variant="h5">
         CITY DATA
       </Typography>
@@ -175,7 +175,7 @@ return(
                 variant="contained"
                 color="primary"
                 id="Search"
-                href ="/cityD"
+                href ="/cityData"
                 style={{ backgroundColor: "Red" }}
               >
                 Back 

@@ -83,7 +83,7 @@ const Ch = () => {
  
     return (
         <Paper className={classes.paper}>
-        <Helmet bodyAttributes={{ style: "background-color : #69A98D" }} />
+        <Helmet bodyAttributes={{ style: "background-color : #37859E" }} />
         <Card className={classes.root}>
       <CardActionArea>
         {/* <CardMedia
@@ -173,10 +173,12 @@ const Ch = () => {
                 aria-controls="panel2a-content"
                 id="panel2a-header"
               >
-                <Typography className={classes.heading}> Go Back </Typography>
+                <Typography className={classes.heading}> Open to reselect or request/become a Docent </Typography>
               </ExpansionPanelSummary>
             <ExpansionPanelDetails>
-              <Button className={classes.centered} variant="contained" color="secondary" href="/chooseTCity" >reselect</Button>
+            <Button className={classes.centered} variant="contained" color="blue" href="/becomedocent" >Become a Docent</Button>
+              <Button className={classes.centered} variant="contained" color="dark blue" href="/talkdocent" >Request a Docent</Button>
+              <Button className={classes.centered} variant="contained" color="secondary" href="/chooseTCity" >Reselect City</Button>
             </ExpansionPanelDetails>
             </ExpansionPanel>
   
