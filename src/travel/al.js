@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
     fontWeight: theme.typography.fontWeightRegular
   },
   paper: {
-    backgroundColor : '#69A98D', 
+    backgroundColor : '#37859E', 
     boxShadow: 'none'
   },
   title: {
