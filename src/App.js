@@ -28,6 +28,7 @@ function App() {
     <BecomeDocent/>,
     <TalkDocent/>,
     <About/>,
+    //<Account />,
 
       <BrowserRouter>
         <Switch>
