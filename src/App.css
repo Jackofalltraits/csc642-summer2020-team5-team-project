@@ -33,44 +33,44 @@ body{
 }
 
 .testi{
-  margin-top: 50px;
-  width: 1100px;
+  margin-top: 5%;
+  width: 11%;
 }
 
 .chig{
-  margin-top: 55px;
-  width:500px;
+  margin-top: 5%;
+  width:5%;
 }
 .nyc{
-  margin-top: 55px;
-  width: 400px;
+  margin-top: 5%;
+  width: 4%;
 }
 
 .sd{
-  margin-top: 55px;
-  width:400px;
+  margin-top: 5%;
+  width:4%;
 }
 
 h1{
-  margin-top: 10px;
-  padding: 20px;
+  margin-top: 10%;
+  padding: 2%
 }
 
 .pic{
-  white-space: 100px;
-  padding: 15px;
+  white-space: 10%;
+  padding: 1%;
 }
 
 .thriller{
-  width: 440px;
-  white-space: 200px;
+  width: 4%;
+  white-space: 20%;
   margin: auto;
 }
 
 .hipster{
-  padding-right: 10px;
-  width: 200;
-  white-space: 200px;
+  padding-right: 0%;
+  width: 2%;
+  white-space: 2%;
 }
 
 .nav{
