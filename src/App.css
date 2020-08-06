@@ -33,41 +33,42 @@ body{
 }
 
 .testi{
-  margin-top: 5%;
-  margin-left: 0%;
-  width: 90%;
+  margin-top: 50px;
+  width: 1100px;
 }
 
 .chig{
-  margin-top: 5%;
-  width:30%
+  margin-top: 55px;
+  width:500px;
 }
 .nyc{
-  margin-top: 5%;
-  width:30%
-}.sd{
-  margin-top: 5%;
-  width:30%
+  margin-top: 55px;
+  width: 400px;
+}
+
+.sd{
+  margin-top: 55px;
+  width:400px;
 }
 
 h1{
-  margin-top: 110%;
+  margin-top: 10px;
   padding: 20px;
 }
 
 .pic{
   white-space: 100px;
-  padding: 5%;
+  padding: 15px;
 }
 
 .thriller{
   width: 440px;
-  white-space: 100%;
+  white-space: 200px;
   margin: auto;
 }
 
 .hipster{
-  padding-right: 10%;
+  padding-right: 10px;
   width: 200;
   white-space: 200px;
 }
@@ -76,9 +77,9 @@ h1{
   font-size: 32px;
   white-space: 100px;
   text-align: center;
-  padding: 20%;
+  padding: 20px;
 }
 
 .jack{
-  width: 25%;
+  width: 300px;
 }
