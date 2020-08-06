@@ -59,7 +59,7 @@ export default function Hipster() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src="https://www.seriouseats.com/2018/10/20181015-state-of-slice-delmar-clay-williams.jpg" />
+          <Avatar alt="Remy Sharp" src="https://i.pinimg.com/originals/a7/56/66/a7566642c351dabd925330d702e95066.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="NewYorkCity - qianzhao888@gmail.com"
@@ -85,7 +85,7 @@ export default function Hipster() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+          <Avatar alt="Travis Howard" src="https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528" />
         </ListItemAvatar>
         <ListItemText
           primary="San Diego - calebz@sina.com"
@@ -111,7 +111,7 @@ export default function Hipster() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://i.pinimg.com/originals/97/e4/2a/97e42a82fc7911961d3ca55f54d1372c.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Chicago - SandraAdams@outlook.com"
@@ -138,7 +138,7 @@ export default function Hipster() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://i.insider.com/5a8d77a5391d941d008b461a?width=750&format=jpeg&auto=webp" />
         </ListItemAvatar>
         <ListItemText
           primary="Seattle - LisaDuke@gmail.com"
@@ -163,7 +163,7 @@ export default function Hipster() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://www.ties.com/blog/wp-content/uploads/2017/04/Sunglasses_for_Your_Face_Shape_01.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Atlantic city - williamzhang@gmail.com"
@@ -187,7 +187,7 @@ export default function Hipster() {
       <Grid>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://i.pinimg.com/originals/12/e4/14/12e4144db4ba587c0c191d1b492bf262.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="London - queenherself@englandmail.com"

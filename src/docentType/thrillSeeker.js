@@ -59,7 +59,7 @@ export default function Thrill() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src="https://www.seriouseats.com/2018/10/20181015-state-of-slice-delmar-clay-williams.jpg" />
+          <Avatar alt="Remy Sharp" src="https://cdn.shopify.com/s/files/1/1426/3862/products/NB_M_Face_Oil_Image_Final_01_900x.jpg?v=1592421103" />
         </ListItemAvatar>
         <ListItemText
           primary="NewYorkCity - qianzhao888@gmail.com"
@@ -85,7 +85,7 @@ export default function Thrill() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+          <Avatar alt="Travis Howard" src="https://c.stocksy.com/a/LXL500/z9/1274431.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="San Diego - calebz@sina.com"
@@ -111,7 +111,7 @@ export default function Thrill() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://images.pexels.com/photos/948873/pexels-photo-948873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
         </ListItemAvatar>
         <ListItemText
           primary="Chicago - SandraAdams@outlook.com"
@@ -138,7 +138,7 @@ export default function Thrill() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://i.pinimg.com/236x/fe/dd/a6/fedda6e0a168a1cabad3c71b61c47c7b.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Seattle - LisaDuke@gmail.com"
@@ -163,7 +163,7 @@ export default function Thrill() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://previews.123rf.com/images/tomwang/tomwang1602/tomwang160200264/52584584-closeup-portrait-of-attractive-young-man-face.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Atlantic city - williamzhang@gmail.com"
@@ -187,7 +187,7 @@ export default function Thrill() {
       <Grid>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://images.unsplash.com/photo-1590086782792-42dd2350140d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
         </ListItemAvatar>
         <ListItemText
           primary="London - queenherself@englandmail.com"

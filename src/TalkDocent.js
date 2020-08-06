@@ -90,7 +90,7 @@ return(
                 style={{ backgroundColor: "#B92626" }}
                 href="/professional"
               >
-                Thrill seeker 
+                Professional 
               </Button>
             </Grid>
 
@@ -117,7 +117,7 @@ return(
                 style={{ backgroundColor: "#B92626" }}
                 href="/thrillSeeker"
               >
-                Professional  
+                ThrillSeeker  
               </Button>
             </Grid>
             <Grid item xs={12}>
