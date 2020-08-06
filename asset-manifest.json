@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/csc642-summer2020-team5-team-project/static/css/main.0a300fcc.chunk.css",
-    "main.js": "/csc642-summer2020-team5-team-project/static/js/main.9c19c3a0.chunk.js",
-    "main.js.map": "/csc642-summer2020-team5-team-project/static/js/main.9c19c3a0.chunk.js.map",
-    "runtime-main.js": "/csc642-summer2020-team5-team-project/static/js/runtime-main.45499c28.js",
-    "runtime-main.js.map": "/csc642-summer2020-team5-team-project/static/js/runtime-main.45499c28.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/csc642-summer2020-team5-team-project/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.9ff2e3d0.chunk.js": "/csc642-summer2020-team5-team-project/static/js/2.9ff2e3d0.chunk.js",
-    "static/js/2.9ff2e3d0.chunk.js.map": "/csc642-summer2020-team5-team-project/static/js/2.9ff2e3d0.chunk.js.map",
-    "index.html": "/csc642-summer2020-team5-team-project/index.html",
-    "precache-manifest.6fb066c33d2f640e6f01bb1bcba848bc.js": "/csc642-summer2020-team5-team-project/precache-manifest.6fb066c33d2f640e6f01bb1bcba848bc.js",
-    "service-worker.js": "/csc642-summer2020-team5-team-project/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/csc642-summer2020-team5-team-project/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.0a300fcc.chunk.css.map": "/csc642-summer2020-team5-team-project/static/css/main.0a300fcc.chunk.css.map",
-    "static/js/2.9ff2e3d0.chunk.js.LICENSE.txt": "/csc642-summer2020-team5-team-project/static/js/2.9ff2e3d0.chunk.js.LICENSE.txt",
-    "static/media/SD.jpg": "/csc642-summer2020-team5-team-project/static/media/SD.b57bcb6c.jpg",
-    "static/media/chig.jpg": "/csc642-summer2020-team5-team-project/static/media/chig.7d76f88d.jpg",
-    "static/media/hipster.jpg": "/csc642-summer2020-team5-team-project/static/media/hipster.47d2bbf1.jpg",
-    "static/media/jackrec.jpg": "/csc642-summer2020-team5-team-project/static/media/jackrec.ef78ff75.jpg",
-    "static/media/nyc.jpg": "/csc642-summer2020-team5-team-project/static/media/nyc.de962884.jpg",
-    "static/media/testi.JPG": "/csc642-summer2020-team5-team-project/static/media/testi.f5028618.JPG"
+    "main.css": "./static/css/main.0a300fcc.chunk.css",
+    "main.js": "./static/js/main.4314b759.chunk.js",
+    "main.js.map": "./static/js/main.4314b759.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.2d7a8eb9.js",
+    "runtime-main.js.map": "./static/js/runtime-main.2d7a8eb9.js.map",
+    "static/css/2.af3c1da9.chunk.css": "./static/css/2.af3c1da9.chunk.css",
+    "static/js/2.9ff2e3d0.chunk.js": "./static/js/2.9ff2e3d0.chunk.js",
+    "static/js/2.9ff2e3d0.chunk.js.map": "./static/js/2.9ff2e3d0.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.432477c35d419bb305bd7f321b3fcdbd.js": "./precache-manifest.432477c35d419bb305bd7f321b3fcdbd.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "./static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.0a300fcc.chunk.css.map": "./static/css/main.0a300fcc.chunk.css.map",
+    "static/js/2.9ff2e3d0.chunk.js.LICENSE.txt": "./static/js/2.9ff2e3d0.chunk.js.LICENSE.txt",
+    "static/media/SD.jpg": "./static/media/SD.b57bcb6c.jpg",
+    "static/media/chig.jpg": "./static/media/chig.7d76f88d.jpg",
+    "static/media/hipster.jpg": "./static/media/hipster.47d2bbf1.jpg",
+    "static/media/jackrec.jpg": "./static/media/jackrec.ef78ff75.jpg",
+    "static/media/nyc.jpg": "./static/media/nyc.de962884.jpg",
+    "static/media/testi.JPG": "./static/media/testi.f5028618.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.45499c28.js",
+    "static/js/runtime-main.2d7a8eb9.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.9ff2e3d0.chunk.js",
     "static/css/main.0a300fcc.chunk.css",
-    "static/js/main.9c19c3a0.chunk.js"
+    "static/js/main.4314b759.chunk.js"
   ]
 }
