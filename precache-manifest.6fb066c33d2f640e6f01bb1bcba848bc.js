@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dafe48741ad1c26fcb61b99d2d37db5a",
+    "revision": "d1d815cbabeea444b68e467441ea160f",
     "url": "/csc642-summer2020-team5-team-project/index.html"
   },
   {
-    "revision": "ba71fe887e418da4d23d",
+    "revision": "98c885723265ccdbf3d6",
     "url": "/csc642-summer2020-team5-team-project/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "b8c9c7f47364933d01dc",
+    "revision": "f81be212d4f97f95910f",
     "url": "/csc642-summer2020-team5-team-project/static/css/main.0a300fcc.chunk.css"
   },
   {
-    "revision": "ba71fe887e418da4d23d",
-    "url": "/csc642-summer2020-team5-team-project/static/js/2.b3569246.chunk.js"
+    "revision": "98c885723265ccdbf3d6",
+    "url": "/csc642-summer2020-team5-team-project/static/js/2.9ff2e3d0.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/csc642-summer2020-team5-team-project/static/js/2.b3569246.chunk.js.LICENSE.txt"
+    "url": "/csc642-summer2020-team5-team-project/static/js/2.9ff2e3d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8c9c7f47364933d01dc",
-    "url": "/csc642-summer2020-team5-team-project/static/js/main.0fa45e54.chunk.js"
+    "revision": "f81be212d4f97f95910f",
+    "url": "/csc642-summer2020-team5-team-project/static/js/main.9c19c3a0.chunk.js"
   },
   {
     "revision": "afb288f303c8ee4a2aac",
