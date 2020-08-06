@@ -13,6 +13,11 @@ import {
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { Helmet } from "react-helmet";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -78,14 +83,38 @@ const Lo = () => {
     return (
       <Paper className={classes.paper}>
         <Helmet bodyAttributes={{ style: "background-color : #37859E" }} />
-     
-       <Container margin="auto" component="main" maxWidth="sm" >      
-       <Grid item xs={5}>
-      <img
-            src=""
+        <Card className={classes.root}>
+      <CardActionArea>
+        {/* <CardMedia
+          className={classes.media}
+          image="/img/atlanta.jpg"
+          title="Al"
+        /> */}
+        <CardMedia>
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg/1000px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg"
             alt="logo"
           />
+        </CardMedia>
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            London
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+          London is the capital and largest city of England and the United Kingdom.[7][8] The city stands on the River Thames in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea, London has been a major settlement for two millennia.          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
         
+        <Button size="small" color="primary" href ="https://en.wikipedia.org/wiki/London">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+       <Container margin="auto" component="main" maxWidth="sm" >     
+        
+       <Grid item xs={5}>
+ 
       </Grid>
       </Container>
                   <ExpansionPanel>
@@ -100,9 +129,12 @@ const Lo = () => {
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
-                Your name - age - hobby - sex
-                
-                
+              approximately $52,000
+Living in London as a Professional    
+
+          <Button size="small" color="primary" href ="https://www.investopedia.com/articles/personal-finance/091415/how-much-money-do-you-need-live-london.asp">
+          Learn More
+          </Button>
       
               </ExpansionPanelDetails>
             </ExpansionPanel>
@@ -119,7 +151,7 @@ const Lo = () => {
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
-                  foodddddd                
+              Widely regarded as one of the most diverse cities in the world, London’s culinary scene offers an eclectic mixture of classic British and modern, multicultural cuisine                
                 
       
               </ExpansionPanelDetails>
@@ -135,23 +167,14 @@ const Lo = () => {
               </ExpansionPanelSummary>
               
               <ExpansionPanelDetails>
-                You will be able to change your passwords right here
-              </ExpansionPanelDetails>
+              Harry Potter Walking Tour. Yes, we all know the famous platform 9 3/4 is located in Kings Cross Station. Hot Tub down London's Canals. Take a trip to Boogie Wonderland. Tower of London. Tiny Coffee Shops all over. 
+              <Button size="small" color="primary" href ="https://hostelgeeks.com/31-fun-things-to-do-london/">
+          Learn More
+          </Button>
+                            </ExpansionPanelDetails>
             </ExpansionPanel>
   
-            <ExpansionPanel>
-              <ExpansionPanelSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel2a-content"
-                id="panel2a-header"
-              >
-                <Typography className={classes.heading}> History </Typography>
-              </ExpansionPanelSummary>
-            
-            <ExpansionPanelDetails>
-              Here is the data of what city you mostly likely to move or travel to. 
-            </ExpansionPanelDetails>
-            </ExpansionPanel>
+           
 
 
             <ExpansionPanel>

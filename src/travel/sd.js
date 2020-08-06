@@ -13,6 +13,12 @@ import {
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { Helmet } from "react-helmet";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -78,14 +84,39 @@ const Sd = () => {
     return (
       <Paper className={classes.paper}>
         <Helmet bodyAttributes={{ style: "background-color : #37859E" }} />
-     
-       <Container margin="auto" component="main" maxWidth="sm" >      
-       <Grid item xs={5}>
-      <img
-            src=""
+        <Card className={classes.root}>
+      <CardActionArea>
+        {/* <CardMedia
+          className={classes.media}
+          image="/img/atlanta.jpg"
+          title="Al"
+        /> */}
+        <CardMedia>
+        <img
+            src="https://www.hotelpalomar-sandiego.com/images/1700-960/istock-833705372-4410d5d4.jpg"
             alt="logo"
           />
+        </CardMedia>
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            San Diego
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+          San Diego (/ˌsæn diˈeɪɡoʊ/, Spanish: [san ˈdjeɣo]; Spanish for 'Saint Didacus') is a city in the U.S. state of California on the coast of the Pacific Ocean, approximately 120 miles (190 km) south of Los Angeles and immediately adjacent to the border with Mexico. With an estimated population of 1,423,851 as of July 1, 2019,[10] San Diego is the eighth-largest city in the United States and second-largest in California. It is part of the San Diego–Tijuana conurbation, the second-largest transborder agglomeration between the U.S. and a bordering country after Detroit–Windsor, with a population of 4,922,723 people.
+         </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
         
+        <Button size="small" color="primary" href ="https://en.wikipedia.org/wiki/San_Diego">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+
+       <Container margin="auto" component="main" maxWidth="sm" >      
+       <Grid item xs={5}>
+    
       </Grid>
       </Container>
                   <ExpansionPanel>
@@ -100,8 +131,8 @@ const Sd = () => {
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
-                Your name - age - hobby - sex
-                
+              Average Salary in San Diego, California
+$75k                
                 
       
               </ExpansionPanelDetails>
@@ -119,8 +150,10 @@ const Sd = () => {
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
-                  foodddddd                
-                
+              Not to get all morbid and serious on you, but life is short. Too short, in fact, to spend time eating things that don’t taste amazing. To make sure that doesn’t happen to you, we painstakingly compiled these 50 things you absolutely have to eat before your time on this planet (or worse, your time in San Diego) comes to an end.                
+              <Button size="small" color="primary" href ="https://www.thrillist.com/eat/san-diego/50-best-things-to-eat-in-san-diego-bucket-list">
+          Learn More
+        </Button>
       
               </ExpansionPanelDetails>
             </ExpansionPanel>
@@ -135,24 +168,13 @@ const Sd = () => {
               </ExpansionPanelSummary>
               
               <ExpansionPanelDetails>
-                You will be able to change your passwords right here
-              </ExpansionPanelDetails>
+              Let's explore the best things to do in San Diego: Balboa Park. Source: Andrew Zarivny / shutterstock. Food and Drink. Source: Teri Virbickis / shutterstock. Whale Watching. Source: Ronnie Chua / shutterstock. Coronado Beach. San Diego Museum of Art. San Diego Natural History Museum.               </ExpansionPanelDetails>
+              <Button size="small" color="primary" href ="https://www.thecrazytourist.com/top-25-things-to-do-in-san-diego/">
+          Learn More
+        </Button>
             </ExpansionPanel>
   
-            <ExpansionPanel>
-              <ExpansionPanelSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel2a-content"
-                id="panel2a-header"
-              >
-                <Typography className={classes.heading}> History </Typography>
-              </ExpansionPanelSummary>
-            
-            <ExpansionPanelDetails>
-              Here is the data of what city you mostly likely to move or travel to. 
-            </ExpansionPanelDetails>
-            </ExpansionPanel>
-
+          
 
             <ExpansionPanel>
               <ExpansionPanelSummary

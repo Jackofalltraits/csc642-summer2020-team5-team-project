@@ -13,6 +13,11 @@ import {
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { Helmet } from "react-helmet";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -78,13 +83,38 @@ const Se = () => {
     return (
       <Paper className={classes.paper}>
         <Helmet bodyAttributes={{ style: "background-color : #37859E" }} />
-     
-       <Container margin="auto" component="main" maxWidth="sm" >      
-       <Grid item xs={5}>
-      <img
-            src=""
+        <Card className={classes.root}>
+      <CardActionArea>
+        {/* <CardMedia
+          className={classes.media}
+          image="/img/atlanta.jpg"
+          title="Al"
+        /> */}
+        <CardMedia>
+        <img
+            src="https://www.hotelpalomar-sandiego.com/images/1700-960/istock-833705372-4410d5d4.jpg"
             alt="logo"
           />
+        </CardMedia>
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Seattle
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+          Seattle (/siˈætəl/ (About this soundlisten) see-AT-əl) is a seaport city on the West Coast of the United States. It is the seat of King County, Washington. Seattle is the largest city in both the state of Washington and the Pacific Northwest region of North America. According to U.S. Census data released in 2019, the Seattle metropolitan area's population stands at 3.98 million, and ranks as the 15th-largest in the United States.
+                   </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        
+        <Button size="small" color="primary" href ="https://en.wikipedia.org/wiki/Seattle">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+       <Container margin="auto" component="main" maxWidth="sm" >      
+       <Grid item xs={5}>
+    
         
       </Grid>
       </Container>
@@ -100,7 +130,8 @@ const Se = () => {
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
-                Your name - age - hobby - sex
+               Average Salary in Seattle, Washington
+$79k
                 
                 
       
@@ -119,9 +150,10 @@ const Se = () => {
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
-                  foodddddd                
-                
-      
+              Seattle is known for its beautiful natural surroundings and its international population, both of which are reflected in its food. In a city that embraces and respects its ecological and cultural diversity, here are 12 foods you’ve got to try when in Seattle.                
+              <Button size="small" color="primary" href ="https://theculturetrip.com/north-america/usa/washington/articles/12-foods-you-must-try-in-seattle/">
+          Learn More
+        </Button>
               </ExpansionPanelDetails>
             </ExpansionPanel>
   
@@ -135,25 +167,14 @@ const Se = () => {
               </ExpansionPanelSummary>
               
               <ExpansionPanelDetails>
-                You will be able to change your passwords right here
-              </ExpansionPanelDetails>
+              From a now-iconic Ferris wheel to an underground tour, these are the best things to do in Seattle right now
+              <Button size="small" color="primary" href ="https://www.timeout.com/seattle/things-to-do/best-things-to-do-in-seattle">
+          Learn More
+        </Button>
+                            </ExpansionPanelDetails>
             </ExpansionPanel>
   
-            <ExpansionPanel>
-              <ExpansionPanelSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel2a-content"
-                id="panel2a-header"
-              >
-                <Typography className={classes.heading}> History </Typography>
-              </ExpansionPanelSummary>
             
-            <ExpansionPanelDetails>
-              Here is the data of what city you mostly likely to move or travel to. 
-            </ExpansionPanelDetails>
-            </ExpansionPanel>
-
-
             <ExpansionPanel>
               <ExpansionPanelSummary
                 expandIcon={<ExitToAppIcon />}

@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
       top: '50%',
       transform: 'translate(-50%, -50%)',
       flexGrow: 1,
-      width: '80%'
+      width: '50%'
     },
     title: {
       position: 'absolute',
@@ -61,8 +61,7 @@ return(
                 href = "/al"
                 style={{ backgroundColor: "black" }}
               >
-                Atlanta 
-              </Button>
+atlantic city              </Button>
             </Grid>
             <Grid item xs={12}>
               <Button
@@ -103,19 +102,7 @@ return(
                 San Diego 
               </Button>
             </Grid>
-            <Grid item xs={12}>
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                id="Search"
-                href = "/sf"
-                style={{ backgroundColor: "black" }}
-              >
-                San Francisco 
-              </Button>
-            </Grid>
+            
             <Grid item xs={12}>
               <Button
                 type="submit"
@@ -129,19 +116,7 @@ return(
                 Seatle 
               </Button>
             </Grid>
-            <Grid item xs={12}>
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                id="Search"
-                href = "/dc"
-                style={{ backgroundColor: "black" }}
-              >
-                Washington D.C.
-              </Button>
-            </Grid>
+            
             <Grid item xs={12}>
               <Button
                 type="submit"
@@ -155,19 +130,7 @@ return(
                 London 
               </Button>
             </Grid>
-            <Grid item xs={12}>
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                id="Search"
-                href = "/to"
-                style={{ backgroundColor: "black" }}
-              >
-                Tokyo 
-              </Button>
-            </Grid>
+           
             <Grid item xs={2}>
               <Button
                 type="submit"
