@@ -7,6 +7,8 @@ export default function Validation(data) {
         errors = `Passwords Must Be Same`
     }
 
+    console.log(errors)
+
     return {
         isValid: isEmpty(errors),
         errors
