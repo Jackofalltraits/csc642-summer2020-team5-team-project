@@ -131,9 +131,7 @@ function LoginDocent(){
               justify="space-between"
               alignItems="flex-end"
             >
-              <Button href="/searchbar" color="primary">
-                See how it works
-              </Button>
+              
             </Grid>
           </Grid>
         </form>
