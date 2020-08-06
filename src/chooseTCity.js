@@ -41,6 +41,7 @@ return(
       <Helmet bodyAttributes={{ style: "background-color : #37859E" }} />
       <Typography className={classes.title} textcomponent="h1" variant="h5">
         CITY DATA
+        <br/>
       </Typography>
       
       <div className={classes.paper}>
@@ -103,20 +104,7 @@ return(
                 San Diego 
               </Button>
             </Grid>
-            <Grid item xs={12}>
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                id="Search"
-                href = "/sf"
-                style={{ backgroundColor: "black" }}
-              >
-                San Francisco 
-              </Button>
-            </Grid>
-            <Grid item xs={12}>
+             <Grid item xs={12}>
               <Button
                 type="submit"
                 fullWidth
@@ -129,19 +117,7 @@ return(
                 Seatle 
               </Button>
             </Grid>
-            <Grid item xs={12}>
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                id="Search"
-                href = "/dc"
-                style={{ backgroundColor: "black" }}
-              >
-                Washington D.C.
-              </Button>
-            </Grid>
+        
             <Grid item xs={12}>
               <Button
                 type="submit"
@@ -155,19 +131,7 @@ return(
                 London 
               </Button>
             </Grid>
-            <Grid item xs={12}>
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                id="Search"
-                href = "/to"
-                style={{ backgroundColor: "black" }}
-              >
-                Tokyo 
-              </Button>
-            </Grid>
+            
             <Grid item xs={2}>
               <Button
                 type="submit"

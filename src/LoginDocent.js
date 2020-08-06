@@ -53,44 +53,29 @@ function LoginDocent(){
 	return(
 
 <div>        
-		<Navbar fluid bg="light" variant="light" className="nav">
-    <Navbar.Brand>
-      <Link to="/">
-      CityScape
-      </Link>
-      </Navbar.Brand>
-    <Nav className="mr-auto">
-      <Form inline>
-      <NavDropdown title="Cities" id="collasible-nav-dropdown">
-        {/* <NavDropdown.Item href="#action/3.1">Atlanta</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Chicago</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">New York City</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">San Diego</NavDropdown.Item>      
-        <NavDropdown.Item href="#action/3.3">San Francisco</NavDropdown.Item>       
-        <NavDropdown.Item href="#action/3.3">Seattle</NavDropdown.Item>       
-        <NavDropdown.Item href="#action/3.3">Washiongton D.C.</NavDropdown.Item>    
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">London</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Tokyo</NavDropdown.Item> */}
-        <NavDropdown.Item href="/cityData">choose city</NavDropdown.Item>
+<Navbar fluid bg="light" variant="light" className="nav">
+          <Navbar.Brand>
+            <Link to="/">
+            CityScape
+            </Link>
+            </Navbar.Brand>
+          <Nav className="mr-auto">
+            <Form inline>
+      
+            </Form>
+            <Nav.Link><Link to="/cityData">City</Link></Nav.Link>
+          </Nav>
+          <Nav>
 
-      </NavDropdown>
-<NavDropdown title="Docent Type" id="collasible-nav-dropdown">
-  <NavDropdown.Item href="#action/3.2">Food Lover</NavDropdown.Item>
-  <NavDropdown.Item href="#action/3.3">Hipster</NavDropdown.Item>
-  <NavDropdown.Item href="#action/3.3">Professional</NavDropdown.Item>      
-  <NavDropdown.Item href="#action/3.3">Relaxer</NavDropdown.Item>       
-  <NavDropdown.Item href="#action/3.3">Thrill seeker</NavDropdown.Item>       
-</NavDropdown>
-        </Form>
-      <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
-      <Nav.Link><Link to="/becomedocent">Become a Docent</Link></Nav.Link>
-      <Nav.Link><Link to="/Login">Docent Login</Link></Nav.Link>
-      <Nav.Link ><Link to="/about">About</Link></Nav.Link>
-    </Nav>
-  </Navbar>
+          </Nav>
+          <Nav>
 
-      <Helmet bodyAttributes={{ style: 'background-color : #37859E' }} />
+            <Nav.Link><Link to="/talkdocent">Find a Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/becomedocent">Be a Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/login">Docent Login</Link></Nav.Link>
+            <Nav.Link ><Link to="/about">About</Link></Nav.Link>
+          </Nav>
+        </Navbar>      <Helmet bodyAttributes={{ style: 'background-color : #37859E' }} />
 
       <Typography className={classes.title} textcomponent="h1" variant="h5">
         Docent Log In
@@ -137,16 +122,7 @@ function LoginDocent(){
               </Button>
             </Grid>
             <Grid item xs={12}>
-              <Button
-                href="/createaccount"
-                type="submit"
-                fullWidth
-                variant="contained"
-                id="login"
-                style={{ backgroundColor: 'white' }}
-              >
-                Create an Account
-              </Button>
+              
             </Grid>
             <Grid
               container
@@ -154,9 +130,7 @@ function LoginDocent(){
               justify="space-between"
               alignItems="flex-end"
             >
-              <Button href="/searchbar" color="primary">
-                See how it works
-              </Button>
+              
             </Grid>
           </Grid>
         </form>

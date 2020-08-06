@@ -20,7 +20,7 @@ import sd from "./travel/sd";
 import se from "./travel/se";
 import sf from "./travel/sf";
 import to from "./travel/to";
-
+import Login from "./LoginDocent";
 
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/login" exact component={LoginDocent} />
           <Route path="/becomedocent" exact component={BecomeDocent} />
+          <Route path="/login" exact component={Login} />
           <Route path="/talkdocent" exact component={TalkDocent} />
           <Route path="/cityData" component={cityD} />
           <Route path="/chooseTCity" component={chooseTCity} />

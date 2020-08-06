@@ -29,14 +29,17 @@ function BecomeDocent() {
             <Form inline>
       
             </Form>
-            <Nav.Link><Link to="/cityData">Choose a City</Link></Nav.Link>
+            <Nav.Link><Link to="/cityData">City</Link></Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
-            <Nav.Link><Link to="/becomedocent">Become a Docent</Link></Nav.Link>
-            <Nav.Link><Link to="/Itinerary">Login as Docent</Link></Nav.Link>
-            <Nav.Link ><Link to="/about">About</Link></Nav.Link>
 
+          </Nav>
+          <Nav>
+
+            <Nav.Link><Link to="/talkdocent">Find a Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/becomedocent">Be a Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/login">Docent Login</Link></Nav.Link>
+            <Nav.Link ><Link to="/about">About</Link></Nav.Link>
           </Nav>
         </Navbar>
         
@@ -57,7 +60,6 @@ function BecomeDocent() {
     <div className="pic">
     <img src={Jack} alt="jack" className="jack" />
     </div>
-    <header className="App-header"></header>
     
     </div>
     </div>
