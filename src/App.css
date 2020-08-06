@@ -34,52 +34,35 @@ body{
 
 .testi{
   margin-top: 5%;
-  width: 11%;
-}
-
-.chig{
-  margin-top: 5%;
-  width:5%;
-}
-.nyc{
-  margin-top: 5%;
-  width: 4%;
-}
-
-.sd{
-  margin-top: 5%;
-  width:4%;
+  margin-left: 0%;
+  width: 90%;
 }
 
 h1{
-  margin-top: 10%;
-  padding: 2%
+  margin-top: 110%;
+  padding: 20px;
 }
 
 .pic{
-  white-space: 10%;
-  padding: 1%;
+  white-space: 100px;
+  padding: 5%;
 }
 
 .thriller{
-  width: 4%;
-  white-space: 20%;
+  width: 440px;
+  white-space: 100%;
   margin: auto;
 }
 
 .hipster{
-  padding-right: 0%;
-  width: 2%;
-  white-space: 2%;
+  padding-right: 10%;
+  width: 200;
+  white-space: 200px;
 }
 
 .nav{
-  font-size: 32px;
+  font-size: 27px;
   white-space: 100px;
   text-align: center;
-  padding: 20px;
-}
-
-.jack{
-  width: 300px;
+  padding: 20%;
 }
