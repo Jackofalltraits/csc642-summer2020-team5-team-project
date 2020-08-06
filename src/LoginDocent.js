@@ -63,20 +63,19 @@ function LoginDocent(){
             <Form inline>
       
             </Form>
-            <Nav.Link><Link to="/cityData">Choose a City</Link></Nav.Link>
+            <Nav.Link><Link to="/cityData">City</Link></Nav.Link>
           </Nav>
           <Nav>
 
           </Nav>
           <Nav>
 
-            <Nav.Link><Link to="/talkdocent">Talk to a Docent</Link></Nav.Link>
-            <Nav.Link><Link to="/becomedocent">Become a Docent</Link></Nav.Link>
-            <Nav.Link><Link to="/login">Login as Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/talkdocent">Find a Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/becomedocent">Be a Docent</Link></Nav.Link>
+            <Nav.Link><Link to="/login">Docent Login</Link></Nav.Link>
             <Nav.Link ><Link to="/about">About</Link></Nav.Link>
           </Nav>
-        </Navbar>
-      <Helmet bodyAttributes={{ style: 'background-color : #37859E' }} />
+        </Navbar>      <Helmet bodyAttributes={{ style: 'background-color : #37859E' }} />
 
       <Typography className={classes.title} textcomponent="h1" variant="h5">
         Docent Log In
@@ -131,9 +130,7 @@ function LoginDocent(){
               justify="space-between"
               alignItems="flex-end"
             >
-              <Button href="/searchbar" color="primary">
-                See how it works
-              </Button>
+              
             </Grid>
           </Grid>
         </form>

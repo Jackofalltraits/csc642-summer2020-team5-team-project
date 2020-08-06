@@ -41,6 +41,7 @@ return(
       <Helmet bodyAttributes={{ style: "background-color : #37859E" }} />
       <Typography className={classes.title} textcomponent="h1" variant="h5">
         CITY DATA
+        <br/>
       </Typography>
       
       <div className={classes.paper}>
@@ -101,9 +102,9 @@ atlantic city              </Button>
               >
                 San Diego 
               </Button>
-            </Grid>
-            
-            <Grid item xs={12}>
+             </Grid>
+             
+             <Grid item xs={12}>
               <Button
                 type="submit"
                 fullWidth
@@ -116,7 +117,7 @@ atlantic city              </Button>
                 Seatle 
               </Button>
             </Grid>
-            
+        
             <Grid item xs={12}>
               <Button
                 type="submit"
@@ -130,7 +131,7 @@ atlantic city              </Button>
                 London 
               </Button>
             </Grid>
-           
+            
             <Grid item xs={2}>
               <Button
                 type="submit"
