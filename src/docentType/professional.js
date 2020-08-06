@@ -51,7 +51,7 @@ export default function Professional() {
               <ListItemAvatar>
                 <Avatar
                   alt="Remy Sharp"
-                  src="https://www.seriouseats.com/2018/10/20181015-state-of-slice-delmar-clay-williams.jpg"
+                  src="https://image.freepik.com/free-photo/beautiful-girl-face-perfect-skin_155003-6435.jpg"
                 />
               </ListItemAvatar>
               <ListItemText
@@ -77,7 +77,7 @@ export default function Professional() {
           <Grid>
             <ListItem alignItems="flex-start">
               <ListItemAvatar>
-                <Avatar alt="Travis Howard" src="../assets/professional2" />
+                <Avatar alt="Travis Howard" src="https://images.unsplash.com/photo-1566810039093-63307ce3f6b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
               </ListItemAvatar>
               <ListItemText
                 primary="San Diego - calebz@sina.com"
@@ -104,7 +104,7 @@ export default function Professional() {
           <Grid>
             <ListItem alignItems="flex-start">
               <ListItemAvatar>
-                <Avatar alt="Cindy Baker" src="../assets/professional3" />
+                <Avatar alt="Cindy Baker" src="https://image.shutterstock.com/image-photo/portrait-beautiful-smiling-man-showing-260nw-715845643.jpg" />
               </ListItemAvatar>
               <ListItemText
                 primary="Chicago - SandraAdams@outlook.com"
@@ -130,7 +130,7 @@ export default function Professional() {
           <Grid>
             <ListItem alignItems="flex-start">
               <ListItemAvatar>
-                <Avatar alt="Cindy Baker" src="../assets/professional4" />
+                <Avatar alt="Cindy Baker" src="https://i.pinimg.com/736x/84/12/71/8412715b792dc8e26f384ce8d26e8304.jpg" />
               </ListItemAvatar>
               <ListItemText
                 primary="Seattle - LisaDuke@gmail.com"
@@ -157,7 +157,7 @@ export default function Professional() {
           <Grid>
             <ListItem alignItems="flex-start">
               <ListItemAvatar>
-                <Avatar alt="Cindy Baker" src="../assets/professional5" />
+                <Avatar alt="Cindy Baker" src="https://images.unsplash.com/photo-1553514029-1318c9127859?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
               </ListItemAvatar>
               <ListItemText
                 primary="Atlantic city - williamzhang@gmail.com"
@@ -184,7 +184,7 @@ export default function Professional() {
           <Grid>
             <ListItem alignItems="flex-start">
               <ListItemAvatar>
-                <Avatar alt="Cindy Baker" src="../assets/professional6" />
+                <Avatar alt="Cindy Baker" src="https://www.goodfreephotos.com/albums/people/asian-pretty-girl-face-in-a-hate-long-hair.jpg" />
               </ListItemAvatar>
               <ListItemText
                 primary="London - queenherself@englandmail.com"

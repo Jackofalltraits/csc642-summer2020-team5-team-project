@@ -59,7 +59,7 @@ export default function Relaxer() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src="https://www.seriouseats.com/2018/10/20181015-state-of-slice-delmar-clay-williams.jpg" />
+          <Avatar alt="Remy Sharp" src="https://c.stocksy.com/a/jWM500/z9/1278237.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="NewYorkCity - qianzhao888@gmail.com"
@@ -85,7 +85,7 @@ export default function Relaxer() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+          <Avatar alt="Travis Howard" src="https://s2.best-wallpaper.net/wallpaper/iphone/1704/Curly-hair-girl-face-eyes_iphone_640x960.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="San Diego - calebz@sina.com"
@@ -111,7 +111,7 @@ export default function Relaxer() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://ath2.unileverservices.com/wp-content/uploads/sites/8/2019/09/hairstyles-for-men-with-round-faces-jagged-spikes-shutterstock.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Chicago - SandraAdams@outlook.com"
@@ -138,7 +138,7 @@ export default function Relaxer() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://www.fitnessin10formen.com/wp-content/themes/f10m/images/about_the_author/colin_mcalpin.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Seattle - LisaDuke@gmail.com"
@@ -163,7 +163,7 @@ export default function Relaxer() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://www.gannett-cdn.com/presto/2020/05/15/PGRF/dc0f127c-c38b-45a3-812e-f11ac35b3758-HELLEN_CHAD_JOSEPH.jpg?crop=1693,2258,x0,y0&quality=50&width=640" />
         </ListItemAvatar>
         <ListItemText
           primary="Atlantic city - williamzhang@gmail.com"
@@ -187,7 +187,7 @@ export default function Relaxer() {
       <Grid>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://storage.needpix.com/rsynced_images/girl-face-3789933_1280.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="London - queenherself@englandmail.com"
