@@ -59,7 +59,7 @@ export default function Professional() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+          <Avatar alt="Remy Sharp" src="../assets/professional1" />
         </ListItemAvatar>
         <ListItemText
           primary="Brunch this weekend?"
@@ -85,7 +85,7 @@ export default function Professional() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+          <Avatar alt="Travis Howard" src="../assets/professional2" />
         </ListItemAvatar>
         <ListItemText
           primary="Summer BBQ"
@@ -111,7 +111,7 @@ export default function Professional() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="../assets/professional3" />
         </ListItemAvatar>
         <ListItemText
           primary="Oui Oui"
@@ -138,7 +138,7 @@ export default function Professional() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="../assets/professional4" />
         </ListItemAvatar>
         <ListItemText
           primary="Oui Oui"
@@ -152,7 +152,7 @@ export default function Professional() {
               >
                 Sandra Adams
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              {' — What are the best sushi places in town...…'}
             </React.Fragment>
           }
         />
@@ -164,7 +164,7 @@ export default function Professional() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="../assets/professional5" />
         </ListItemAvatar>
         <ListItemText
           primary="Oui Oui"
@@ -178,7 +178,7 @@ export default function Professional() {
               >
                 Sandra Adams
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              {' — Anything going on this weekend…'}
             </React.Fragment>
           }
         />
@@ -189,7 +189,7 @@ export default function Professional() {
       <Grid>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="../assets/professional6" />
         </ListItemAvatar>
         <ListItemText
           primary="Oui Oui"
@@ -203,7 +203,7 @@ export default function Professional() {
               >
                 Sandra Adams
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              {' — New to the city, show me around…'}
             </React.Fragment>
           }
         />
