@@ -13,13 +13,18 @@ import TalkDocent from "./TalkDocent";
 import LoginDocent from "./LoginDocent"
 import al from "./travel/al";
 import ch from "./travel/ch";
-import dc from "./travel/dc";
 import lo from "./travel/lo";
 import nyc from "./travel/nyc";
 import sd from "./travel/sd";
 import se from "./travel/se";
-import sf from "./travel/sf";
-import to from "./travel/to";
+import foodie from "./docentType/foodie";
+import hipster from "./docentType/hipster";
+import professional from "./docentType/professional";
+import relaxer from "./docentType/relaxer";
+import thrillSeeker from "./docentType/thrillSeeker";
+
+
+
 import Login from "./LoginDocent";
 
 function App() {
@@ -45,13 +50,17 @@ function App() {
           <Route path="/loginDocent" component={LoginDocent} />
           <Route path="/al" component={al} />
           <Route path="/ch" component={ch} />
-          <Route path="/dc" component={dc} />
           <Route path="/lo" component={lo} />
           <Route path="/nyc" component={nyc} />
           <Route path="/sd" component={sd} />
           <Route path="/se" component={se} />
-          <Route path="/sf" component={sf} />
-          <Route path="/to" component={to} />
+          <Route path="/foodie" component={foodie} />
+          <Route path="/hipster" component={hipster} />
+          <Route path="/professional" component={professional} />
+          <Route path="/relaxer" component={relaxer} />
+          <Route path="/thrillSeeker" component={thrillSeeker} />
+
+
 
 
 

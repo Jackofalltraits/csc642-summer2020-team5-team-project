@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
       top: '50%',
       transform: 'translate(-50%, -50%)',
       flexGrow: 1,
-      width: '80%'
+      width: '50%'
     },
     title: {
       position: 'absolute',
@@ -62,8 +62,7 @@ return(
                 href = "/al"
                 style={{ backgroundColor: "black" }}
               >
-                Atlanta 
-              </Button>
+atlantic city              </Button>
             </Grid>
             <Grid item xs={12}>
               <Button
@@ -103,7 +102,8 @@ return(
               >
                 San Diego 
               </Button>
-            </Grid>
+             </Grid>
+             
              <Grid item xs={12}>
               <Button
                 type="submit"
