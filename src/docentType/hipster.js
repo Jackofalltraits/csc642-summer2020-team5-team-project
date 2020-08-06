@@ -59,10 +59,10 @@ export default function Hipster() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+          <Avatar alt="Remy Sharp" src="https://www.seriouseats.com/2018/10/20181015-state-of-slice-delmar-clay-williams.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Brunch this weekend?"
+          primary="NewYorkCity - qianzhao888@gmail.com"
           secondary={
             <React.Fragment>
               <Typography
@@ -71,9 +71,9 @@ export default function Hipster() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Ali Connors
+                Qian Zhao/male
               </Typography>
-              {" — I'll be in your neighborhood doing errands this…"}
+              {" — NewYorkPizza the best ever, the thinest ever!…"}
             </React.Fragment>
           }
         />
@@ -88,7 +88,7 @@ export default function Hipster() {
           <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Summer BBQ"
+          primary="San Diego - calebz@sina.com"
           secondary={
             <React.Fragment>
               <Typography
@@ -97,9 +97,9 @@ export default function Hipster() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                to Scott, Alex, Jennifer
+                Caleb Zhao/make
               </Typography>
-              {" — Wish I could come, but I'm out of town this…"}
+              {" — Seafood, this is the right place + all kinds of Mexican Food…"}
             </React.Fragment>
           }
         />
@@ -114,7 +114,7 @@ export default function Hipster() {
           <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Oui Oui"
+          primary="Chicago - SandraAdams@outlook.com"
           secondary={
             <React.Fragment>
               <Typography
@@ -123,9 +123,9 @@ export default function Hipster() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Sandra Adams
+                Sandra Adams/female
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              {' — Come to eat our thickest pizza ever made…'}
             </React.Fragment>
           }
         /> 
@@ -141,7 +141,7 @@ export default function Hipster() {
           <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Oui Oui"
+          primary="Seattle - LisaDuke@gmail.com"
           secondary={
             <React.Fragment>
               <Typography
@@ -149,10 +149,9 @@ export default function Hipster() {
                 variant="body2"
                 className={classes.inline}
                 color="textPrimary"
-              >
-                Sandra Adams
-              </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              >Lisa Duke/female
+                              </Typography>
+              {' — We have so many Itlatian food here, Wanna come and explore with me?…'}
             </React.Fragment>
           }
         />
@@ -167,7 +166,7 @@ export default function Hipster() {
           <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Oui Oui"
+          primary="Atlantic city - williamzhang@gmail.com"
           secondary={
             <React.Fragment>
               <Typography
@@ -176,9 +175,8 @@ export default function Hipster() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Sandra Adams
-              </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+                 William Zhang/male              </Typography>
+              {' — We have the best hot dogs here, I will take you to explore…'}
             </React.Fragment>
           }
         />
@@ -192,7 +190,7 @@ export default function Hipster() {
           <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Oui Oui"
+          primary="London - queenherself@englandmail.com"
           secondary={
             <React.Fragment>
               <Typography
@@ -201,15 +199,26 @@ export default function Hipster() {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Sandra Adams
+                The Queen/female
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              {' — I will take u to eat all kinda england food till you cant take no more…'}
             </React.Fragment>
           }
         />
       </ListItem>
       </Grid>
       <Grid item xs={12}>
+      <Button
+                type="submit"
+                width ="50%"
+                variant="contained"
+                color="primary"
+                id="Search"
+                href = "/TalkDocent"
+                style={{ backgroundColor: "Black" }}
+              >
+                Reselect
+              </Button>
       <Button
                 type="submit"
                 width ="50%"

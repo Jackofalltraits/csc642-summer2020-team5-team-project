@@ -85,7 +85,7 @@ export default function Foodie() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+          <Avatar alt="Travis Howard" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/singleimagebug-keto-taco-cups-pin-1559840682.jpg?crop=1.00xw:0.942xh;0,0&resize=480:*" />
         </ListItemAvatar>
         <ListItemText
           primary="San Diego - calebz@sina.com"
@@ -111,7 +111,7 @@ export default function Foodie() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://images.ctfassets.net/uexfe9h31g3m/41oXeXoL6bhpHXUydDHHez/f97a2a2210a5425f0c661c1c7a668b74/DeepDishPizza_1024x576.jpg?fm=jpg&fit=thumb&w=1200&h=630&fl=progressive" />
         </ListItemAvatar>
         <ListItemText
           primary="Chicago - SandraAdams@outlook.com"
@@ -138,7 +138,7 @@ export default function Foodie() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://c.ndtvimg.com/2020-04/dih4ifhg_pasta_625x300_22_April_20.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Seattle - LisaDuke@gmail.com"
@@ -163,7 +163,7 @@ export default function Foodie() {
 
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/1/27/1390822179922/Hotdog---how-do-you-eat-y-011.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fdbddfc8cce7aeb7326d70c397ab46f3" />
         </ListItemAvatar>
         <ListItemText
           primary="Atlantic city - williamzhang@gmail.com"
@@ -187,7 +187,7 @@ export default function Foodie() {
       <Grid>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://cdn.tasteatlas.com/images/toplistarticles/cfc6f72a543e414086eca1fbcfe8e866.jpg?w=600&h=450" />
         </ListItemAvatar>
         <ListItemText
           primary="London - queenherself@englandmail.com"
@@ -208,6 +208,17 @@ export default function Foodie() {
       </ListItem>
       </Grid>
       <Grid item xs={12}>
+      <Button
+                type="submit"
+                width ="50%"
+                variant="contained"
+                color="primary"
+                id="Search"
+                href = "/TalkDocent"
+                style={{ backgroundColor: "Black" }}
+              >
+                Reselect
+              </Button>
       <Button
                 type="submit"
                 width ="50%"
